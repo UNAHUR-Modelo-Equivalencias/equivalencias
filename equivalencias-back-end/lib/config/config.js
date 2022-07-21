@@ -4,7 +4,7 @@ const parse = require('pg-connection-string').parse;
 const dotenv = require('dotenv');
 
 function getEnvironment() {
-  return process.env.NODE_ENV || 'development';
+  return 'production';
 }
 
 function initializeEnv() {
