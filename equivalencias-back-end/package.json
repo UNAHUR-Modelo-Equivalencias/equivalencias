@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "main": "dist/bin/www.js",
-  "enegines": {
-    "node":"16.16.0"
-  },
+
   "scripts": {
     "start": "node www.js",
     "build": "run-s clean transpile",
