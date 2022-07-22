@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "main": "dist/bin/www.js",
+  "enegines": {
+    "node":"16.16.0"
+  },
   "scripts": {
     "start": "nodemon",
     "build": "run-s clean transpile",
