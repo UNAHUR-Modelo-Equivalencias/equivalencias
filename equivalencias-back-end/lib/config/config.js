@@ -14,7 +14,7 @@ function initializeEnv() {
 }
 
 function parseHerokuUrlIfPresent() {
-  const url = process.env.DATABASE_URL;
+  const url = 'postgres://ptakwrapckjkne:22f93e633f0d18873cf95bc6375aee7778107581cd2fcacbc3515f4ccedb0b69@ec2-54-161-255-125.compute-1.amazonaws.com:5432/dbktvmpppt8nt7'
 
   if (url === undefined) {
     return {};
@@ -49,11 +49,11 @@ function normalizePort(val) {
 function initializeConfig() {
   const environment = getEnvironment();
   let dbConfig = {
-    username: process.env.SQL_USERNAME,
-    password: process.env.SQL_PASSWORD,
-    database: process.env.SQL_DATABASE,
-    host: process.env.SQL_HOST || 'ec2-54-161-255-125.compute-1.amazonaws.com',
-    port: process.env.SQL_PORT || '5432',
+    username: 'ptakwrapckjkne',
+    password: '22f93e633f0d18873cf95bc6375aee7778107581cd2fcacbc3515f4ccedb0b69',
+    database: 'dbktvmpppt8nt7',
+    host: 'ec2-54-161-255-125.compute-1.amazonaws.com',
+    port: '5432',
     dialect: 'postgres',
     logging: debug('sequelize'),
   };
