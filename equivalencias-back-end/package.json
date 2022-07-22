@@ -7,7 +7,7 @@
     "node":"16.16.0"
   },
   "scripts": {
-    "start": "nodemon",
+    "start": "node www.js",
     "build": "run-s clean transpile",
     "server": "node ./dist/bin/www",
     "dev": "cross-env NODE_ENV=development run-s build server",
