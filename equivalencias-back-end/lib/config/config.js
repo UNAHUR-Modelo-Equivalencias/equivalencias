@@ -52,7 +52,7 @@ function initializeConfig() {
     username: process.env.SQL_USERNAME,
     password: process.env.SQL_PASSWORD,
     database: process.env.SQL_DATABASE,
-    host: process.env.SQL_HOST || 'localhost',
+    host: process.env.SQL_HOST || 'ec2-54-161-255-125.compute-1.amazonaws.com',
     port: process.env.SQL_PORT || '5432',
     dialect: 'postgres',
     logging: debug('sequelize'),
