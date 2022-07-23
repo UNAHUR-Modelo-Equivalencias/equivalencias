@@ -4,14 +4,10 @@
  * Module dependencies.
  */
 
-//import debugPkg from 'debug';
-//import http from 'http';
-//import app from '../lib/app';
-//import db from '../lib/models';
-const debugPkg = require('debug');
-const http = require('http');
-const app = require('../lib/app');
-const db = require('../lib/models');
+import debugPkg from 'debug';
+import http from 'http';
+import app from '../lib/app';
+import db from '../lib/models';
 
 const debug = debugPkg('js/www:server');
 
