@@ -14,7 +14,7 @@ const app = express();
  * Get port from environment and store in Express.
  */
 
-app.set('port', config.port || '3001');
+app.set('port', config.port || '8080');
 
 app.use(logger('dev'));
 app.use(express.json());
