@@ -67,7 +67,7 @@ function initializeConfig() {
   }
   return {
     db: dbConfig,
-    port: normalizePort(process.env.PORT || '3000'),
+    port: normalizePort(process.env.PORT || '3001'),
   };
 }
 
